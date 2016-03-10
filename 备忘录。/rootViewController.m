@@ -27,7 +27,7 @@
     self = [super initWithStyle:style];
     if (self)
     {
-        // Custom initialization
+        self.view.backgroundColor = [UIColor grayColor];
     }
     return self;
 }
